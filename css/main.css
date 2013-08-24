@@ -347,7 +347,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 650px) {
 	.leftbox {float:none; width: 100%;}
 	.rightbox {float:none; width: 100%;}
 	.rightlogobox {float:none; width: 100%}
