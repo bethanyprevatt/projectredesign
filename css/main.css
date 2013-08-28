@@ -164,18 +164,38 @@ strong {
     text-align: center; 
 }
 
-figure, figcaption {
-
-display: block;
-font-style: normal;
-font-family: Helvetica, sans-serif;
-
+.indeximage { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
 }
 
-figcaption {
+.designimage { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
 
-font-style: normal;
-font-family: Helvetica, sans-serif;
+h4 { 
+   position: absolute; 
+   top: 55%; 
+   left: 8.5%; 
+   width: 100%; 
+}
+
+h5 { 
+   position: absolute; 
+   top: 25%; 
+   left: 65%; 
+   width: 100%; 
+   font-size: 1em;
+}
+
+h6 { 
+   position: absolute; 
+   top: 38%; 
+   left: 65%; 
+   width: 100%;
+   font-size: 1em;
+
 }
 
 /*-------------------------form css-------------------------*/
@@ -334,7 +354,7 @@ a:hover {
 	font-variant:small-caps;
 	height:35px;
 	line-height:35px;
-	width:158px;
+	width:17%;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #cbeef2;
