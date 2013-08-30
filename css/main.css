@@ -205,9 +205,7 @@ h7 {
 
 figure{
     position: relative;
-    float: left;
-    border: 1px solid #e4e4e4;
-	box-shadow: 0 3px 3px 0 #e4e4e4;
+    display: inline-block;
 }
 figcaption{
     position: absolute;
@@ -218,10 +216,11 @@ figcaption{
 }
 
 .ringcontainer {
-	width: 84%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #000;
+	background-color: #fff;
+	overflow: hidden;
 }
 
 .ringcontainer img {
