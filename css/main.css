@@ -13,7 +13,7 @@ body {
 	font: 100%/1.25 Helvetica, Arial, sans-serif;
 	max-width: 900px;
 	margin: 0 auto;
-		font-size: 0.9em;
+	font-size: 0.9em;
 	background-color: #fff;
 	background: url(../images/backgroundmain.jpg)
 }
@@ -54,7 +54,6 @@ strong {
 }
 
 .mainimagebox {
-	background-color: none;
 	margin: 0;
 }
 
@@ -110,7 +109,7 @@ strong {
 .bottommainbox {
 	clear: both;
 	background: #fff;
-	wdith: 100%;
+	width: 100%;
 	margin: 10px 0 10px 0;
 }
 
@@ -118,6 +117,7 @@ strong {
 	width: 100%;
 	background: #fff;
 	padding: 10px;
+	margin: 0 0 10px 0;
 }
 
 .contact_form {
@@ -131,10 +131,14 @@ strong {
 	background: #fff;
 }
 
+.engagementmainbox img {
+	width: 100%;
+}
+
 .engagementringcontainter {
 	width: 100%;
 	background: #fff;
-	margin: 5px 0 0 0;
+	margin: 10px 0 10px 0;
 	padding: 5px;
 }
 
@@ -145,17 +149,6 @@ strong {
 
 .bottommainbox img{
 	width: 100%;
-}
-
-.ringcontainer {
-	width: 69%;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.ringcontainer img {
-	border: 1px solid #e4e4e4;
-	box-shadow: 0 3px 3px 0 #e4e4e4;
 }
 
 .ringimage { 
@@ -195,7 +188,45 @@ h6 {
    left: 65%; 
    width: 100%;
    font-size: 1em;
+}
 
+.engagementimage { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h7 { 
+   position: absolute; 
+   top: 68%; 
+   left: 60%; 
+   width: 100%;
+   font-size: 1em;
+}
+
+figure{
+    position: relative;
+    float: left;
+    border: 1px solid #e4e4e4;
+	box-shadow: 0 3px 3px 0 #e4e4e4;
+}
+figcaption{
+    position: absolute;
+    text-align: center;
+    color: #000;
+    width: 165px;
+    padding: .5em 0;
+}
+
+.ringcontainer {
+	width: 84%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #000;
+}
+
+.ringcontainer img {
+	border: 1px solid #e4e4e4;
+	box-shadow: 0 3px 3px 0 #e4e4e4;
 }
 
 /*-------------------------form css-------------------------*/
@@ -223,7 +254,6 @@ h6 {
 	display:block;
 	font-weight: bold;
 	font-variant:small-caps;
-
 }	
 
 #form1 input, #form1 textarea {		
@@ -392,7 +422,6 @@ footer {
 @media only screen and (max-width: 899) {
 	.leftbox {float:none; width: 100%;}
 	.rightbox {float:none; width: 100%;}
-
 }
 
 
@@ -450,4 +479,7 @@ ul.navlist {
 	margin: 0 auto;
 	background: #fff;
 }
+
+.engagementmainbox {
+	display: none;
 }
