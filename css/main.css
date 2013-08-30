@@ -294,12 +294,8 @@ background-color: #ddd;
 	
 #form1 button{
 	width:150px;
-	height:37px;
-	line-height:37px;		
-	border:none;
-	color:#4e4e4e;
-	cursor:pointer;
-	text-align:center;
+	display: block;
+	margin: 0 auto;
 }		
 
 /* ------------------------------- NAV -------------------------------------- */
