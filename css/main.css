@@ -170,7 +170,7 @@ strong {
 h4 { 
    position: absolute; 
    top: 55%; 
-   left: 8.5%; 
+   left: 7.5%; 
    width: 100%; 
 }
 
@@ -398,7 +398,7 @@ a:hover {
 	font-variant:small-caps;
 	height:35px;
 	line-height:35px;
-	width:17%;
+	width:20%;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #cbeef2;
